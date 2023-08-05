@@ -1,6 +1,6 @@
 import asyncio
 
-from ...peer import Peer
+from .base import Peer
 
 
 class GroupPeer(Peer):

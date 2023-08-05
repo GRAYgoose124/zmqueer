@@ -5,8 +5,8 @@ from dataclasses import dataclass
 import lzma
 
 
-from zmqer import TaskablePeer
-from zmqer.zmqer.misc.misc import connect_all
+from zmqer.peer import TaskablePeer
+from zmqer.misc import connect_all
 
 
 @dataclass
