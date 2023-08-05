@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zmqer"
+version = "0.1.0"
+description = ""
+authors = ["Grayson Miller <grayson.miller124@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyzmq = "^25.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+zmqer = "zmqer.__main__:main"
