@@ -1,10 +1,6 @@
 from abc import abstractmethod, ABCMeta
-import json
-from typing import Any
 
 from . import GroupPeer
-
-from pydantic import BaseModel
 
 
 class WorkloadPeer(GroupPeer, metaclass=ABCMeta):

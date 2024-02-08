@@ -6,7 +6,7 @@ import os
 from zmqer.argparser import argparser
 from zmqer.misc import connect_linked
 
-from zmqer.peer.group import RandomTaskablePeer as Peer
+from zmqer.peer.random import RandomTaskablePeer as Peer
 
 
 async def teardown_peers(peers):
